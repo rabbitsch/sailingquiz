@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang= "eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name = "description" content= "A quiz to test basic sailing knowledge">
+    <title>Sailing Quiz</title>
+    <link href="index.css" rel="stylesheet" type="text/css">
+    <link href="floatgrid.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id= "container">
+      <img  id= 'header-image'src= "https://s3-us-west-1.amazonaws.com/schmitzbucket/sailing-3388184_1920.jpg" style = "width: auto; height: auto; max-width: 250px; max-height: 250px" alt = "main boat on wave">
+      <section class="row" id= "startpage" role = "main">
+        <h1>Test your basic sailing knowledge! See if you are ready for the high seas... ARRR!</h1>
+    </div>
+    <div class = "row" id= 'startquiz'>
+        <h2>Think you can hang with salty sailors?</h2>
+         <button id="js-startbutton" class = 'row' >Start Quiz!</button>
+      </section>
+    </div>  
+    <section id= "qATime"></section>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="quizdata.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html> 
